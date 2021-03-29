@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head> 
+        <title> whatsUp-Chat </title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+        <link href = "https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel = "stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style = "color: white;">
+        <div id = "welcome" class = "no-initial-display welcome-center-align">
+            Uzair Afzal's <br>
+            jQuery, JSON & AJAX Chat Application <br>
+            <button id = "welcome" class = "btn btn-success btn-lg"> Continue </button>
+        </div>
+        
+        <!-- 
+            PARTITION OF THE TWO DIVISIONS: WELCOME AND UPDATE
+         -->
+         
+         <div style = "text-align: center; margin-bottom: 5%; " id = "update-div" class = "no-initial-display">
+            <h1 style = "font-size: 30px; color: white; font-family: Pirata One, cursive;"> Update Your Message </h1> <br>
+            <input type = "text" class = "input-class" id = "update-box"> &nbsp; &nbsp;
+            <button class = "btn btn-success btn-sm" id = "update-btn"> Update </button>
+            <hr>
+        </div>
+
+        <!-- 
+            PARTITION OF THE TWO DIVISIONS: UPDATE AND NON-WELCOME
+         -->
+
+         <div style = "text-align: center; margin-top: 2%;" id = "non-welcome" class = "no-initial-display">
+            <h1 style = "font-size: 50px; color: white; font-family: Pirata One, cursive;"> Text Message Chat Application </h1> <br>
+            <input class = "input-class" autofocus id = "msg-box" type = "text" placeholder = "Type Message"> &nbsp; &nbsp;
+            <button class = "btn btn-success btn-sm" id = "my-btn"> Send </button> &nbsp; &nbsp;
+            <button class = "btn btn-danger btn-sm" id = "clear-chat"> Clear All Chat </button>
+            <div id = "my-spinner" style = "margin-top: 8%;"> 
+                <img class = "gif-size" src = "https://cdn.lowgif.com/small/de538fab8eff340b-oxo-salad-spinner-target.gif">
+                <h1>     Processing .... </h1>
+            </div>
+            <div id = "my-div" class = "text-div">
+                <!-- Text will be placed here later -->
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src = 'user.js'> </script>
+    </body>
+</html>

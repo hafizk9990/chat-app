@@ -1,0 +1,87 @@
+.gif-size {
+    height: 80px;
+    width: 80px;
+}
+
+body {
+    background: url('images/img-4.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.no-initial-display {
+    display: none;
+}
+
+.welcome-center-align {
+    font-family: 'Pirata One', cursive;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-35%, -55%);
+    width: 70%;
+    height: 60%;
+}
+
+.user-1 {
+    color: black;
+    margin-left: -10%;
+    display: inline-block;
+    vertical-align: top;
+    background: yellow none repeat scroll 0 0;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px 10px 5px 12px;
+    width: 20%;
+    height: 30%;
+}
+
+.user-2 {
+    color: white;
+    margin-left: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background: #8B008B none repeat scroll 0 0;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px 10px 5px 12px;
+    width: 20%;
+}
+
+.text-div {
+    width: 100%; 
+    margin-top: 5%;
+    margin-left: -10%;
+}
+
+.input-class {
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px 10px 5px 12px;
+    width: 40%;
+    text-align: center;
+    /* background-color: #f1c9a5; */
+}
+
+.time-1 {
+    color: white;
+    display: block;
+    font-size: 14px;
+    margin-left: 10%;
+}
+
+.time-2 {
+    color: white;
+    display: block;
+    font-size: 14px;
+    margin-left: 69%;
+}
