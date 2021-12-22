@@ -4,4 +4,4 @@ This application was made and deployed to practically apply my recently acquired
 
 Please do remember that it is just a concept application which mimics the chatting experience but does not allow people to chat with each other in any way. All chat messages are cached in the PHP SESSION super-global associative array. So, reloading the window or even force-flushing the in-browser cache will not remove your messages
 
-To use the application, go here: http://www.uzair-reviews.com/Chat-App
+To use the application, go here: http://www.uzair-afzal.com/chat-app. If this does not work for you, go here: http://www.uzairafzal.com/chat-app
